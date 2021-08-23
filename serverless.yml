@@ -57,13 +57,13 @@ functions:
     handler: bin/hello
     events:
       - httpApi:
-          path: /hello
+          path: /golambda/hello
           method: get
   world:
     handler: bin/world
     events:
       - httpApi:
-          path: /world
+          path: /golambda/world
           method: get
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
